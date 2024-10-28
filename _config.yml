@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Jiawei Mo's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Jiawei Mo"
-description              : &description "A master Student from Central South University"
+description              : &description "A master student from Central South University"
 url                      : https://JiaweiMorris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JiaweiMorris/JiaweiMorris.github.io"
@@ -21,10 +21,10 @@ repository               : "JiaweiMorris/JiaweiMorris.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "rick.png"
+  avatar           : "profile.png"
   name             : "Jiawei Mo"
   pronouns         : # example: "she/her"  
-  bio              : "A master Student from CSU"
+  bio              : "A master student from CSU"
   location         : "Shenzhen China"
   employer         : "Central South University"
   uri              : # URL
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0006-3925-4560"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
