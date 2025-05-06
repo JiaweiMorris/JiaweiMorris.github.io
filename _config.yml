@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jiawei Mo's Personal Homepage"
+title                    : "Jiawei Mo"
 title_separator          : "-"
 name                     : &name "Jiawei Mo"
-description              : &description "A master student from Central South University"
+description              : &description "Jiawei Mo's personal website"
 url                      : https://JiaweiMorris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JiaweiMorris/JiaweiMorris.github.io"
@@ -24,8 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "Jiawei Mo (莫佳伟)"
   pronouns         : # example: "she/her"  
-  bio              : "A master student from CSU"
-  location         : "Shenzhen China"
+  bio              : #"A student at CSU"
+  location         : "Changsha China"
   employer         : "Central South University"
   uri              : # URL
   email            : "mojiawei@csu.edu.cn" 
