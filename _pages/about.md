@@ -7,20 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-中南大学研三在读学硕，师从[李敏](http://bioinformatics.csu.edu.cn/limin/)教授，目前在深圳胡希平教授的[情感智能与普适计算研究中心](https://ai.smbu.edu.cn/yjzz/qgznypsjsyjzx/zxjj.htm)实习，主要研究方向为基于多模态数据的早期抑郁识别，研究兴趣广泛，包括多模态大语言模型、强化学习、3D生成、具身智能、增强现实、神经工程等。
+中南大学计算机学院硕士研究生，师从[李敏](http://bioinformatics.csu.edu.cn/limin/)教授，曾在深圳[情感智能与普适计算研究中心](https://ai.smbu.edu.cn/yjzz/qgznypsjsyjzx/zxjj.htm)实习，主要研究多模态数据驱动的抑郁情绪识别，研究兴趣广泛，包括多模态大语言模型、强化学习、3D生成、具身智能、增强现实、神经工程等。
 
 ## 专业技能
 
-* **机器学习及深度学习**： Pytorch/OpenCV/Transformers
-* **前端开发**：Vue3/Vant/Gradio
-* **后端开发**：Spring Boot/MyBatis Plus/MySQL/SQLite
-* **3D图形**：Unity/Blender/MotionBuilder/OpenGL
-* **其他**：Linux Shell/Docker/Selenium/Qt/Android(Java)
+* **机器学习/深度学习**： PyTorch、OpenCV、Transformers
+* **全栈Web**：Vue3、Vant、Gradio、Spring Boot、MyBatis Plus、MySQL
+* **3D图形**：UE、Unity、Blender、OpenGL
+* **其他**：Linux、Docker、Qt、Android(Java)、ESP32
 
 ## 科研经历
 
-### 1. 基于步态的抑郁识别（2024.09-至今）
- 负责了600名志愿者脑电、步态和量表数据的三轮采集。
+### 1. 基于步态的抑郁识别（2023.10-2024.10）
+ 组织600多名志愿者完成脑电、步态和量表数据的三轮采集。
 
 ### 2. [基于关节分组的时空定位动作理解大语言模型](https://arxiv.org/abs/2410.11404)（2023.08-2024.08）
 * 改进了已有的骨架编码器，结合时间回归头创造了一个能够理解骨架序列并对动作发生的时间和身体部位进行定位和描述的多轮对话多模态语言模型；
