@@ -47,16 +47,40 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% assign has_publication_links = false %}
+        {% capture publication_links %}
+          {% if page.articleurl %}
+            {% assign has_publication_links = true %}
+            <a href="{{ page.articleurl }}">Publisher Page</a>
+          {% endif %}
+          {% if page.preprinturl %}
+            {% if has_publication_links %} | {% endif %}
+            {% assign has_publication_links = true %}
+            <a href="{{ page.preprinturl }}">Preprint</a>
+          {% endif %}
+          {% if page.paperurl %}
+            {% if has_publication_links %} | {% endif %}
+            {% assign has_publication_links = true %}
+            <a href="{{ page.paperurl }}">Download Paper</a>
+          {% endif %}
+          {% if page.codeurl %}
+            {% if has_publication_links %} | {% endif %}
+            {% assign has_publication_links = true %}
+            <a href="{{ page.codeurl }}">Code</a>
+          {% endif %}
+          {% if page.slidesurl %}
+            {% if has_publication_links %} | {% endif %}
+            {% assign has_publication_links = true %}
+            <a href="{{ page.slidesurl }}">Download Slides</a>
+          {% endif %}
+        {% endcapture %}
+
+        {% if page.citation and has_publication_links %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />{{ publication_links | strip }}</p>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% elsif has_publication_links %}
+          <p style="font-size: smaller">{{ publication_links | strip }}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

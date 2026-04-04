@@ -7,7 +7,7 @@ redirect_from:
   - /about_en.html
 ---
 
-I am a Master's student at the School of Computer Science, Central South University, under the supervision of Prof. [Min Li](http://bioinformatics.csu.edu.cn/limin/). I previously interned at the [Affective Intelligence and Ubiquitous Computing Research Center](https://ai.smbu.edu.cn/yjzz/qgznypsjsyjzx/zxjj.htm) in Shenzhen. My primary research focuses on multimodal data-driven depression recognition. My broader research interests span multimodal large language models, reinforcement learning, 3D content generation, embodied intelligence, augmented reality, and neural engineering.
+I received my M.S. in Computer Science and Technology from the School of Computer Science and Engineering, Central South University, where I was supervised by Prof. [Min Li](http://bioinformatics.csu.edu.cn/limin/). I previously interned at the [Affective Intelligence and Ubiquitous Computing Research Center](https://ai.smbu.edu.cn/yjzz/qgznypsjsyjzx/zxjj.htm) in Shenzhen. My past research has focused on multimodal depression recognition and multimodal motion understanding. I am currently exploring embodied intelligence for VR-based agents, with interests in motion generation, multimodal perception, tool use, and simulation-oriented interaction.
 
 ## Technical Skills  
 
@@ -18,13 +18,16 @@ I am a Master's student at the School of Computer Science, Central South Univers
 
 ## Research Experience  
 
-### 1. (08/2023 - 08/2024) [MoChat: Joints-Grouped Spatio-Temporal Grounding Multimodal Large Language Model for Multi-Turn Motion Comprehension and Description](https://arxiv.org/abs/2410.11404)
+### 1. (08/2023 - 08/2025) MoChat: Joints-Grouped Spatio-Temporal Grounding Multimodal Large Language Model for Multi-Turn Motion Comprehension and Description
+
+Published in [IEEE Journal of Biomedical and Health Informatics](https://ieeexplore.ieee.org/document/11237042) ([arXiv preprint](https://arxiv.org/abs/2410.11404), [Code](https://github.com/CSUBioGroup/MoChat))
+
 * Responsible for skeleton format selection (SMPL, Human3.6M, COCO) and encoder architecture design.  
 * Processed NTU RGBD dataset videos and generated annotations using CogVLM.  
 * Improved skeleton encoder and introduced a temporal regression module, enabling spatio-temporal localization and description of actions.  
-* Trained on 8 × A800 GPUs, achieving state-of-the-art performance on most test metrics.  
+* Trained on 8 x A800 GPUs, achieving state-of-the-art performance on most test metrics; the journal version later appeared in IEEE JBHI, vol. 30, no. 3, pp. 1972-1985.  
 
-### 2. (09/2021 - 06/2022) [Depression Recognition Based on EEG and Speech Fusion](https://github.com/JiaweiMorris/JiaweiMorris.github.io/blob/master/files/%E5%9F%BA%E4%BA%8EEEG%E8%84%91%E7%94%B5%E4%B8%8E%E8%AF%AD%E9%9F%B3%E8%9E%8D%E5%90%88%E7%9A%84%E6%8A%91%E9%83%81%E7%97%87%E8%AF%86%E5%88%AB%E6%96%B9%E6%B3%95.pdf) 
+### 2. (09/2021 - 06/2022) [Depression Recognition Based on EEG and Speech Fusion](/files/基于EEG脑电与语音融合的抑郁症识别方法.pdf)
 * Preprocessed the MODMA dataset from Lanzhou University using MATLAB and OpenSMILE.  
 * Trained multiple machine learning classifiers including KNN, SVM, MLP, Gaussian Processes, Gaussian Naive Bayes, and Random Forests.
 * Applied dynamic classifier selection algorithms to achieve a peak accuracy of 97.6% in depression recognition.
@@ -37,5 +40,6 @@ I am a Master's student at the School of Computer Science, Central South Univers
 
 ## Education  
 
-* M.S. in Computer Science and Technology&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2022 – Present
-* B.S. in Computer Science and Technology&emsp;&emsp;&emsp;&emsp; Central South University&emsp;&emsp;&emsp;&emsp;09/2018 – 06/2022
+* M.S. in Computer Science and Technology&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2022 – 06/2025
+* B.S. in Computer Science and Technology&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2019 – 06/2022
+* Undergraduate studies in Geophysics&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2018 – 07/2019
