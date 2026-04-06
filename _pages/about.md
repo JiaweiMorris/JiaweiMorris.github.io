@@ -40,6 +40,9 @@ redirect_from:
 
 ## 教育经历
 
-* 中南大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2022.09~2025.06&emsp;&emsp;&emsp;&emsp; 计算机科学与技术-学术型硕士
-* 中南大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2019.09~2022.06&emsp;&emsp;&emsp;&emsp; 计算机科学与技术-本科
-* 中南大学&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2018.09~2019.07&emsp;&emsp;&emsp;&emsp; 地球物理学-本科
+* **中南大学** <span style="float: right;">2022.09 – 2025.06</span>  
+  计算机科学与技术-学术型硕士
+* **中南大学** <span style="float: right;">2019.09 – 2022.06</span>  
+  计算机科学与技术-本科
+* **中南大学** <span style="float: right;">2018.09 – 2019.07</span>  
+  地球物理学-本科

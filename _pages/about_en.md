@@ -40,6 +40,9 @@ Published in [IEEE Journal of Biomedical and Health Informatics](https://ieeexpl
 
 ## Education  
 
-* Central South University&emsp;&emsp;&emsp;&emsp;09/2022 – 06/2025&emsp;&emsp;&emsp;&emsp;M.S. in Computer Science and Technology
-* Central South University&emsp;&emsp;&emsp;&emsp;09/2019 – 06/2022&emsp;&emsp;&emsp;&emsp;B.S. in Computer Science and Technology
-* Central South University&emsp;&emsp;&emsp;&emsp;09/2018 – 07/2019&emsp;&emsp;&emsp;&emsp;Undergraduate studies in Geophysics
+* **Central South University** <span style="float: right;">09/2022 – 06/2025</span>  
+  M.S. in Computer Science and Technology
+* **Central South University** <span style="float: right;">09/2019 – 06/2022</span>  
+  B.S. in Computer Science and Technology
+* **Central South University** <span style="float: right;">09/2018 – 07/2019</span>  
+  Undergraduate studies in Geophysics
