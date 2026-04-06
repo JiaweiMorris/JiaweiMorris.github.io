@@ -20,7 +20,7 @@ I received my M.S. in Computer Science and Technology from the School of Compute
 
 ### 1. (08/2023 - 08/2025) MoChat: Joints-Grouped Spatio-Temporal Grounding Multimodal Large Language Model for Multi-Turn Motion Comprehension and Description
 
-Published in [IEEE Journal of Biomedical and Health Informatics](https://ieeexplore.ieee.org/document/11237042) ([arXiv preprint](https://arxiv.org/abs/2410.11404), [Code](https://github.com/CSUBioGroup/MoChat))
+Published in [IEEE Journal of Biomedical and Health Informatics](https://ieeexplore.ieee.org/document/11237042) ([arXiv](https://arxiv.org/abs/2410.11404), [Code](https://github.com/CSUBioGroup/MoChat))
 
 * Responsible for skeleton format selection (SMPL, Human3.6M, COCO) and encoder architecture design.  
 * Processed NTU RGBD dataset videos and generated annotations using CogVLM.  
@@ -40,6 +40,22 @@ Published in [IEEE Journal of Biomedical and Health Informatics](https://ieeexpl
 
 ## Education  
 
-* M.S. in Computer Science and Technology&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2022 – 06/2025
-* B.S. in Computer Science and Technology&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2019 – 06/2022
-* Undergraduate studies in Geophysics&emsp;&emsp;&emsp;&emsp;Central South University&emsp;&emsp;&emsp;&emsp;09/2018 – 07/2019
+<table>
+  <tbody>
+    <tr>
+      <td>M.S. in Computer Science and Technology</td>
+      <td>Central South University</td>
+      <td>09/2022 - 06/2025</td>
+    </tr>
+    <tr>
+      <td>B.S. in Computer Science and Technology</td>
+      <td>Central South University</td>
+      <td>09/2019 - 06/2022</td>
+    </tr>
+    <tr>
+      <td>Undergraduate studies in Geophysics</td>
+      <td>Central South University</td>
+      <td>09/2018 - 07/2019</td>
+    </tr>
+  </tbody>
+</table>
